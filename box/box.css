@@ -1,0 +1,57 @@
+.contentbox {
+    width: 75%;
+    height: 5em;
+    padding-left: 25%;
+    border: .25em solid;
+}
+
+.borderbox {
+    box-sizing: border-box;
+    width: 75%;
+    height: 5em;
+    padding-left: 25%;
+    border: .25em solid
+}
+
+input {
+    box-sizing: border-box;
+    width: 75%;
+    padding: .4em .55em;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: blanchedalmond;
+    color: inherit;
+    border: 0;
+    border-radius: .25em;
+    outline: none;
+}
+
+.left {
+    width: 5em;
+    height: 5em;
+    border: .25em solid;
+    box-shadow: -5px 0 5px -5px rgb(98, 45, 197);
+}
+
+.right {
+    width: 5em;
+    height: 5em;
+    border: .25em solid;
+    box-shadow: 5px 0 5px -5px rgb(13, 68, 119);
+
+}
+
+.top {
+    width: 5em;
+    height: 5em;
+    border: .25em solid;
+    box-shadow: 0 -5px 5px -5px rgb(13, 68, 119);
+
+}
+
+.bottom {
+    width: 5em;
+    height: 5em;
+    border: .25em solid;
+    box-shadow: 0 5px 5px -5px rgb(13, 68, 119);
+}
